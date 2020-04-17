@@ -1,0 +1,56 @@
+
+
+
+
+
+.QuizCreator{
+     display: flex;
+     justify-content: center;
+     padding-top: 50px;
+     flex-grow: 1;
+     width: 100%;
+     background: rgba(240, 29, 140, .3);
+ }
+
+.QuizCreator > div {
+    width: 100%;
+    max-width: 600px;
+    padding: 0 20px;
+}
+.QuizCreator h1 {
+    text-align: center;
+}
+.QuizCreator form {
+    background: #eee;
+    border-radius: 5px;
+    padding: 15px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, .5);
+}
+.QuizCreator form input{
+    display: block;
+    box-sizing: border-box;
+    border: 1px solid #bebebe;
+    padding: 7px;
+    margin: 0 0 5px;
+    width: 100%;
+    outline: none;
+    transition: all 300ms ease-in-out;
+}
+
+.QuizCreator div ul {
+    background: #eee;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, .5);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    list-style: circle;
+}
+.QuizCreator div ul li {
+    font-size: 1.3em;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.QuizCreator div ul li span{
+    color: #d56e00;
+}
